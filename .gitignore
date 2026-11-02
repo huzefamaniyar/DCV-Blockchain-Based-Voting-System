@@ -1,0 +1,66 @@
+
+# ==============================
+# Dependencies
+# ==============================
+node_modules/
+**/node_modules/
+
+# ==============================
+# Environment & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==============================
+# Build & Distribution
+# ==============================
+dist/
+build/
+coverage/
+.next/
+.vite/
+
+# ==============================
+# Hardhat Generated Files
+# ==============================
+Hardhat/cache/
+Hardhat/artifacts/
+Hardhat/typechain-types/
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# Temporary Output
+# ==============================
+Hardhat/deploy_output.txt
+Hardhat/hardhat_output.txt
+
+# ==============================
+# Editor & OS Files
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+Frontend/public/human-models/
+Hardhat/cache/
+Hardhat/hardhat/cache/

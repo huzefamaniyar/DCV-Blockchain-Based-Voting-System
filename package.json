@@ -1,0 +1,41 @@
+{
+  "name": "decentralized-voting-dapp",
+  "version": "1.0.0",
+  "description": "A full-stack blockchain-based voting application with face recognition",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "cd Server && npm install && cd ../Frontend && npm install",
+    "dev:server": "cd Server && npm run dev",
+    "dev:frontend": "cd Frontend && npm run dev",
+    "dev:blockchain": "cd Hardhat && npx hardhat node",
+    "deploy:contract": "cd Hardhat && npx hardhat run scripts/deploy.js --network localhost",
+    "start:server": "cd Server && npm start",
+    "build:frontend": "cd Frontend && npm run build",
+    "test": "echo \"Run tests in respective directories\"",
+    "clean": "cd Server && rmdir /s /q node_modules && cd ../Frontend && rmdir /s /q node_modules",
+    "help": "echo See PROJECT_SETUP.md for detailed instructions"
+  },
+  "keywords": [
+    "blockchain",
+    "voting",
+    "face-recognition",
+    "ethereum",
+    "react",
+    "nodejs",
+    "mongodb",
+    "web3"
+  ],
+  "author": "DCV_FPJ Team",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/voting-dapp.git"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "face-api.js": "^0.22.2"
+  }
+}
