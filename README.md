@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # 🗳️ Decentralized Voting dApp
 
 A full-stack blockchain-based voting application with face recognition authentication, built with React, Node.js, MongoDB, and Ethereum smart contracts.
@@ -508,5 +506,3 @@ For issues and questions:
 **🎉 Happy Voting!**
 
 # Built with ❤️ using React, Node.js, MongoDB, Solidity, and Face-API.js
-
-> > > > > > > 00708ca1b18fa3ff04451d144150435cd395e804
