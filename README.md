@@ -502,7 +502,3 @@ For issues and questions:
 - [ ] Mainnet deployment
 
 ---
-
-**🎉 Happy Voting!**
-
-# Built with ❤️ using React, Node.js, MongoDB, Solidity, and Face-API.js
